@@ -49,7 +49,14 @@ nav a:hover {
     color: #fff;
     text-align: center;
   }
-  
+
+  .Biography {
+    border-color: #c7c6c6;
+    border-style: groove;
+    border-width: 2px;
+    padding: 6px;
+  }
+
   footer {
     background-color: #c7c6c6;
     padding: 5px 0px;
