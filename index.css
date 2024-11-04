@@ -43,6 +43,12 @@ nav a:hover {
   figure {
     padding: 10px;
   }
+
+  h2 {
+    background-color: #c7c6c6;
+    color: #fff;
+    text-align: center;
+  }
   
   footer {
     background-color: #c7c6c6;
