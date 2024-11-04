@@ -1,5 +1,30 @@
 
-.container { 
-margin: 20px auto 20px auto;
-max-width: 1200px;
+/*--Navagation--*/
+
+body {
+  background-color: #fff;
+}
+
+header {
+  background-color: #c7c6c6;
+  color: #fff;
+  padding: 5px 2px;
+  text-align: center;
+}
+
+nav ul {
+  display: flex;
+  list-style: none;
+  justify-content: center;
+}
+
+nav a {
+  border-radius: 5px;
+  color: #fff;
+  padding: 1em;
+  text-decoration: solid;
+}
+
+nav a:hover {
+  background-color: #acabab;
 }
