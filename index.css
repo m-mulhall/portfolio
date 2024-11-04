@@ -28,6 +28,21 @@ nav a {
 nav a:hover {
   background-color: #acabab;
 }
+
+/*--Image--*/ 
+
+.container { 
+  margin: 20px auto 20px auto;
+  max-width: 1200px;
+  }
+  
+  img {
+    max-width: 100%;
+  }
+  
+  figure {
+    padding: 10px;
+  }
   
   footer {
     background-color: #c7c6c6;
