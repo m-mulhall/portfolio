@@ -38,7 +38,7 @@ nav a:hover {
 
 .container { 
   margin: 20px auto 20px auto;
-  max-width: 800px;
+  max-width: 400px;
   }
   
   img {
@@ -46,7 +46,12 @@ nav a:hover {
   }
   
   figure {
-    padding: 10px;
+    padding: 30px;
+  }
+
+  figure figcaption {
+    font-size: 50%;
+    text-align: center;
   }
 
   h2 {
