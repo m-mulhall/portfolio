@@ -1,4 +1,6 @@
 
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans+Narrow:wght@400;700&family=Quicksand&display=swap');
+
 /*--Navagation--*/
 
 body {
@@ -10,7 +12,10 @@ header {
   color: #fff;
   padding: 5px 2px;
   text-align: center;
-}
+    font-family: "PT Sans Narrow", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+  }
 
 nav ul {
   display: flex;
@@ -48,7 +53,10 @@ nav a:hover {
     background-color: #c7c6c6;
     color: #fff;
     text-align: center;
-  }
+      font-family: "PT Sans Narrow", sans-serif;
+      font-weight: 400;
+      font-style: normal;
+    }
 
   .Biography {
     border-color: #c7c6c6;
@@ -62,4 +70,9 @@ nav a:hover {
     padding: 5px 0px;
     color: #fff;
     text-align: center;
+      font-family: "PT Sans Narrow", sans-serif;
+      font-weight: 400;
+      font-style: normal;
   }
+
+  
