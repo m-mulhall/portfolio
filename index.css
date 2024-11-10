@@ -68,6 +68,8 @@ nav a:hover {
     border-style: groove;
     border-width: 2px;
     padding: 6px;
+    box-shadow: 3px 3px 6px rgb(213, 213, 213);
+    padding: 1em 2em;
   }
 
   footer {
