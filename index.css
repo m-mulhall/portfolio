@@ -5,6 +5,12 @@
 
 body {
   background-color: #fff;
+  position: relative;
+}
+
+.wrapper-main {
+  width: 1100px;
+  margin: 0 auto;
 }
 
 header {
@@ -15,6 +21,7 @@ header {
     font-family: "PT Sans Narrow", sans-serif;
     font-weight: 700;
     font-style: normal;
+    position: relative;
   }
 
 nav ul {
@@ -28,6 +35,7 @@ nav a {
   color: #fff;
   padding: 1em;
   text-decoration: solid;
+  justify-content: center;
 }
 
 nav a:hover {
@@ -38,10 +46,12 @@ nav a:hover {
 
 .container { 
   margin: 20px auto 20px auto;
-  max-width: 400px;
+  max-width: 900px;
   }
   
   img {
+    width: 500px;
+    margin-left: 400px;
     max-width: 100%;
   }
   
@@ -92,15 +102,11 @@ nav a:hover {
     padding: 2px 2px;
   }
 
-  .wrapper-main {
-    width: 750px;
-    margin: 0 auto;
-  }
-
   table, th, td {
     border-collapse: separate;
     border-radius: 20px;
     padding: 20px;
+    position: relative;
   }
 
   #tableA {
@@ -140,6 +146,10 @@ nav a:hover {
     text-align: center;
   }
 
+  #tableB {
+    width: 100%;
+  }
+
   #columnE {
     text-align: center;
   }
@@ -158,6 +168,10 @@ nav a:hover {
 
   #columnI {
     text-align: center;
+  }
+
+  #tableC {
+    width: 100%;
   }
 
   #columnJ {
@@ -191,5 +205,6 @@ nav a:hover {
       font-family: "PT Sans Narrow", sans-serif;
       font-weight: 400;
       font-style: normal;
+      position: relative;
   }
   
