@@ -22,9 +22,10 @@
 
     <section>
       <h2>Contact Me</h2>
-      <p class="Contact Me"></p>
-      <p>Mobile: (403) 0909-090</p>
-      <p2>Email: ExampleEmail.com</p2>
+      <p class="Contact Me">
+       Mobile: (403) 0909-090
+       <br><br>
+       Email: ExampleEmail.com</p>
     </section>
 
 <section>
@@ -38,9 +39,9 @@
     <link href="./contact.css" rel="stylesheet" type="text/css">
   </head>
 
-<div class="container">
-  <section class="wrapper-main">
-    <form action="./action_page.php" method="get" id="form2">
+  <section class="contact-form">
+    <div class="wrapper-main">
+      <form action="./action_page.php" method="get" id="form2">
           <label for="firstname">First Name:</label>
           <input required type="text" id="firstname" name="firstname" placeholder="First Name">
           <br><br>
@@ -55,7 +56,6 @@
           <textarea id="subject" name="subject" placeholder="Enter Subject Matter Here.."></textarea>
           <br><br>
           <button type="submit" value="submit">Submit</button>
-    </form>
+      </form>
+    </div>
   </section>
-
-</div>

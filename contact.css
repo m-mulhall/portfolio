@@ -1,13 +1,30 @@
 @import url('https://fonts.googleapis.com/css2?family=PT+Sans+Narrow:wght@400;700&family=Quicksand&display=swap');
 
+body {
+  background-color: #c7c7c7;
+}
 
 .wrapper-main {
   width: 400px;
   margin: 0px auto;
 }
 
+h2 {
+  position: relative;
+}
+
+h3 {
+  position: relative;
+}
+
+.contact-form {
+  width: 100%;
+  padding: 0px;
+  justify-content: center;
+}
+
 textarea, input {
-  border: 1px solid #c7c7c7;
+  border: 1px solid #848484;
 }
 
 textarea, input:focus {
@@ -15,7 +32,7 @@ textarea, input:focus {
 }
 
 #firstname {
-  border-color: #c7c7c7;
+  border-color: #7e7e7e;
   border-style: groove;
   border-width: 1px;
   padding: 2px;
@@ -25,7 +42,7 @@ textarea, input:focus {
 } 
 
 #lastname {
-  border-color: #c7c7c7;
+  border-color: #7e7e7e;
   border-style: groove;
   border-width: 1px;
   padding: (10, 5, 10, 5);
@@ -35,7 +52,7 @@ textarea, input:focus {
 }
 
 #eaddress {
-  border-color: #c7c7c7;
+  border-color: #7e7e7e;
   border-style: groove;
   border-width: 1px;
   padding: (10, 5, 10, 5);
@@ -45,7 +62,7 @@ textarea, input:focus {
 }
 
 #subject {
-  border-color: #c7c7c7;
+  border-color: #7e7e7e;
   border-style: groove;
   border-width: 1px;
   padding: (10, 5, 10, 5);
@@ -61,8 +78,8 @@ textarea {
 }
 
 button {
-  background-color: #c7c7c7;
-  border: #c7c7c7;
+  background-color: #848484;
+  border: #848484;
   border-radius: 5px;
   font-size: 15px;
 }
