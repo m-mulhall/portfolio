@@ -1,0 +1,45 @@
+
+
+.fname {
+  border-color: #c7c7c7;
+  border-style: groove;
+  border-width: 1px;
+  padding: 2px;
+  background-color: #f0f0f0;
+  color: #020202;
+  text-align: left;
+} 
+
+.lname {
+  border-color: #c7c7c7;
+  border-style: groove;
+  border-width: 1px;
+  padding: (10, 5, 10, 5);
+  background-color: #f0f0f0;
+  color: #020202;
+  text-align: left;
+}
+
+.eaddress {
+  border-color: #c7c7c7;
+  border-style: groove;
+  border-width: 1px;
+  padding: (10, 5, 10, 5);
+  background-color: #f0f0f0;
+  color: #020202;
+  text-align: left;
+}
+
+.subject {
+  border-color: #c7c7c7;
+  border-style: groove;
+  border-width: 1px;
+  padding: (10, 5, 10, 5);
+  background-color: #f0f0f0;
+  color: #020202;
+  text-align: left;
+}
+
+.submit {
+ padding: (2, 2, 2, 2);
+}

@@ -74,6 +74,23 @@ nav a:hover {
     padding: 1em 2em;
   }
 
+  h3 {
+    background-color: #c7c6c6;
+    color: #fff;
+    text-align: center;
+  }
+
+  h4 {
+    border-color: #c7c6c6;
+    border-style: groove;
+    border-width: 1px;
+    padding: 2px 2px;
+  }
+
+  table, th, td {
+    border: 1px solid;
+  }
+
 /*--Footer--*/
 
   footer {
