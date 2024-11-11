@@ -59,6 +59,7 @@ nav a:hover {
   h2 {
     background-color: #c7c6c6;
     color: #fff;
+    padding: 5px 2px;
     text-align: center;
       font-family: "PT Sans Narrow", sans-serif;
       font-weight: 400;
@@ -77,7 +78,11 @@ nav a:hover {
   h3 {
     background-color: #c7c6c6;
     color: #fff;
+    padding: 5px 2px;
     text-align: center;
+    font-family: "PT Sans Narrow", sans-serif;
+      font-weight: 400;
+      font-style: normal;
   }
 
   h4 {
@@ -87,9 +92,54 @@ nav a:hover {
     padding: 2px 2px;
   }
 
-  table, th, td {
-    border: 1px solid;
+  .wrapper-main {
+    width: 750px;
+    margin: 0 auto;
   }
+
+  table, th, td {
+    border-collapse: separate;
+    border-radius: 20px;
+    padding: 20px;
+  }
+
+  #tableA {
+    width: 100%;
+  }
+
+  th {
+    background-color: #c7c6c6;
+    color: #fff;
+    text-align: center;
+      font-family: "PT Sans Narrow", sans-serif;
+      font-weight: 400;
+      font-style: normal;
+    border: 1px solid #acabab;
+  }
+
+  td {
+    border-left: 1px solid #acabab;
+    border-right: 1px solid #acabab;
+    border-bottom: 1px solid #acabab;
+  }
+
+  #columnA {
+    text-align: center;
+  }
+
+  #columnB {
+    text-align: center;
+  }
+
+  #columnC {
+    text-align: center;
+  }
+
+  #columnD {
+    border-right: 1px solid #acabab;
+    text-align: center;
+  }
+
 
 /*--Footer--*/
 
