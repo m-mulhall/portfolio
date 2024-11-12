@@ -14,6 +14,9 @@ body {
 }
 
 header {
+  position: fixed;
+  top: 0;
+  width: 100%; 
   border: 1px solid #9d9d9d;
   border-radius: 5px;
   background-color: #acabab;
@@ -23,7 +26,6 @@ header {
     font-family: "PT Sans Narrow", sans-serif;
     font-weight: 700;
     font-style: normal;
-    position: relative;
   }
 
 nav ul {
@@ -92,7 +94,7 @@ nav a:hover {
     border-style: groove;
     border-width: 2px;
     padding: 6px;
-    box-shadow: 2px 4px #7e7e7e;
+    box-shadow: 4px 2px #7e7e7e;
     padding: 10px 20px;
   }
 
@@ -230,3 +232,12 @@ nav a:hover {
       border-radius: 5px;
   }
   
+/*--Mobile Version--*/
+
+  @media (max-width: 600px) {
+    
+    .wrapper-main {
+      width: 80%
+    }
+
+  }
