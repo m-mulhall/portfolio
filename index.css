@@ -14,7 +14,7 @@ body {
 }
 
 header {
-  border: 1px solid #acabab;
+  border: 1px solid #9d9d9d;
   border-radius: 5px;
   background-color: #acabab;
   color: #fff;
@@ -60,7 +60,7 @@ nav a:hover {
   
 .figure {
   width: 300px;
-  height: 200x;
+  height: 200px;
   background-image: url(img/MREM.jpg) ;
   background-size: 100%;
   background-position: center;
@@ -82,8 +82,8 @@ nav a:hover {
       font-family: "PT Sans Narrow", sans-serif;
       font-weight: 400;
       font-style: normal;
-      border-radius: 5px;
       text-align: center;
+      border-radius: 5px;
     }
 
   .Biography {
@@ -92,8 +92,8 @@ nav a:hover {
     border-style: groove;
     border-width: 2px;
     padding: 6px;
-    box-shadow: 8px 16px #7e7e7e (213, 213, 213);
-    padding: 1em 2em;
+    box-shadow: 2px 4px #7e7e7e;
+    padding: 10px 20px;
   }
 
   h3 {
@@ -226,7 +226,7 @@ nav a:hover {
       font-weight: 400;
       font-style: normal;
       position: relative;
-      border-color: #acabab;
+      border: 1px solid #9d9d9d;
       border-radius: 5px;
   }
   
