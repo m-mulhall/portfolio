@@ -60,13 +60,13 @@ nav a:hover {
   }
   
 .figure {
-  align-content: center;
+  /* align-content: center; */
   width: 300px;
   height: 200px;
   margin: 40px 375px;
   background-image: url(img/MREM.jpg) ;
   background-size: 100%;
-  background-position: center;
+  /* background-position: center; */
   box-shadow: 2px 2px #7e7e7e;
 }
 
