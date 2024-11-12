@@ -19,7 +19,7 @@ nav ul {
 }
 
 nav a {
-  border-radius: 5px;
+  border-radius: 20px;
   color: #fff;
   padding: 1em;
   text-decoration: solid;
@@ -28,12 +28,15 @@ nav a {
 }
 
 nav a:hover {
+  cursor: pointer;
+  border-radius: 20px;
   background-color: #848484;
 }
 
 /*--Headers--*/
 
 h1 {
+  height: 50px;
   text-align: center;
   position: relative;
 }
