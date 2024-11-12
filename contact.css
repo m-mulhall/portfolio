@@ -9,6 +9,28 @@ body {
   margin: 0px auto;
 }
 
+/*--Navagation--*/
+
+nav ul {
+  display: flex;
+  list-style: none;
+  justify-content: center;
+}
+
+nav a {
+  border-radius: 5px;
+  color: #fff;
+  padding: 1em;
+  text-decoration: solid;
+  justify-content: center;
+}
+
+nav a:hover {
+  background-color: #848484;
+}
+
+/*--Headers--*/
+
 h2 {
   position: relative;
 }
@@ -16,6 +38,8 @@ h2 {
 h3 {
   position: relative;
 }
+
+/*--Contact Form--*/
 
 .contact-form {
   width: 100%;
@@ -77,7 +101,10 @@ textarea {
   resize: vertical;
 }
 
+/*--Button--*/
+
 button {
+  color: #f0f0f0;
   background-color: #848484;
   border: #848484;
   border-radius: 5px;
@@ -91,4 +118,18 @@ button:hover {
 
 input[type=text], textarea, button {
   padding: 5px;
+}
+
+/*--Footer--*/
+
+footer {
+  background-color: #acabab;
+  padding: 5px 0px;
+  color: #000;
+  text-align: center;
+    font-family: "PT Sans Narrow", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    position: relative;
+    border-color: #acabab;
 }
