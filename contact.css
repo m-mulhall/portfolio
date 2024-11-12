@@ -15,6 +15,7 @@ nav ul {
   display: flex;
   list-style: none;
   justify-content: center;
+  text-align: center;
 }
 
 nav a {
@@ -23,6 +24,7 @@ nav a {
   padding: 1em;
   text-decoration: solid;
   justify-content: center;
+  text-align: center;
 }
 
 nav a:hover {
@@ -31,11 +33,20 @@ nav a:hover {
 
 /*--Headers--*/
 
+h1 {
+  text-align: center;
+  position: relative;
+}
+
 h2 {
+  border: 1px solid #fff;
+  border-radius: 20px;
   position: relative;
 }
 
 h3 {
+  border: 1px solid #fff;
+  border-radius: 20px;
   position: relative;
 }
 
@@ -58,6 +69,7 @@ textarea, input:focus {
 #firstname {
   border-color: #7e7e7e;
   border-style: groove;
+  border-radius: 2px;
   border-width: 1px;
   padding: 2px;
   background-color: #f0f0f0;
@@ -68,6 +80,7 @@ textarea, input:focus {
 #lastname {
   border-color: #7e7e7e;
   border-style: groove;
+  border-radius: 2px;
   border-width: 1px;
   padding: (10, 5, 10, 5);
   background-color: #f0f0f0;
@@ -78,6 +91,7 @@ textarea, input:focus {
 #eaddress {
   border-color: #7e7e7e;
   border-style: groove;
+  border-radius: 2px;
   border-width: 1px;
   padding: (10, 5, 10, 5);
   background-color: #f0f0f0;
@@ -88,6 +102,7 @@ textarea, input:focus {
 #subject {
   border-color: #7e7e7e;
   border-style: groove;
+  border-radius: 2px;
   border-width: 1px;
   padding: (10, 5, 10, 5);
   background-color: #f0f0f0;
@@ -105,13 +120,14 @@ textarea {
 
 button {
   color: #f0f0f0;
-  background-color: #848484;
-  border: #848484;
+  background-color: #919191;
+  border:1px solid #919191;
   border-radius: 5px;
   font-size: 15px;
 }
 
 button:hover {
+  border-radius: 20px;
   background-color: #7e7e7e;
   cursor: pointer;
 }
@@ -132,4 +148,5 @@ footer {
     font-style: normal;
     position: relative;
     border-color: #acabab;
+    border-radius: 5px;
 }
