@@ -14,6 +14,7 @@ body {
 }
 
 header {
+  border: 1px solid #acabab;
   background-color: #acabab;
   color: #fff;
   padding: 5px 2px;
@@ -39,7 +40,7 @@ nav a {
 }
 
 nav a:hover {
-  background-color: #acabab;
+  background-color: #848484;
 }
 
 /*--Image--*/ 
@@ -47,28 +48,19 @@ nav a:hover {
 .container { 
   margin: 20px auto 20px auto;
   max-width: 900px;
+  max-height: 450px;
   position: relative;
+  text-align: center;
   }
   
 .figure {
-  display: block;
-  margin-left: 0px auto;
-  margin-right: 0px auto;
-  width: 100%;
-  position: relative;
+  width: 300px;
+  height: 200x;
+  background-image: url(img/MREM.jpg) ;
+  background-size: 100%;
+  background-position: center;
+  box-shadow: 2px 2px #7e7e7e;
 }
-
-
-
-  img {
-    width: 500px;
-    margin-left: 265px;
-    max-width: 100%;
-  }
-  
-  figure {
-    padding: 30px;
-  }
 
   figure figcaption {
     font-size: 50%;
@@ -88,11 +80,12 @@ nav a:hover {
     }
 
   .Biography {
-    border-color: #acabab;
+    border-radius: 20px;
+    border-color: #7e7e7e;
     border-style: groove;
     border-width: 2px;
     padding: 6px;
-    box-shadow: 3px 3px 6px rgb(213, 213, 213);
+    box-shadow: 8px 16px #000(213, 213, 213);
     padding: 1em 2em;
   }
 
@@ -113,15 +106,13 @@ nav a:hover {
     padding: 2px 2px;
   }
 
+/*--Tables--*/
+
   table, th, td {
     border-collapse: separate;
     border-radius: 20px;
     padding: 20px;
     position: relative;
-  }
-
-  #tableA {
-    width: 100%;
   }
 
   th {
@@ -131,13 +122,19 @@ nav a:hover {
       font-family: "PT Sans Narrow", sans-serif;
       font-weight: 400;
       font-style: normal;
-    border: 1px solid #acabab;
+    border: 1px solid #fff;
   }
 
   td {
-    border-left: 1px solid #848484;
-    border-right: 1px solid #848484;
-    border-bottom: 1px solid #848484;
+    border-left: 1px solid #fff;
+    border-right: 1px solid #fff;
+    border-bottom: 1px solid #fff;
+  }
+
+/*--Table 1--*/
+
+  #tableA {
+    width: 100%;
   }
 
   #columnA {
@@ -153,9 +150,11 @@ nav a:hover {
   }
 
   #columnD {
-    border-right: 1px solid #848484;
+    border-right: 1px solid #fff;
     text-align: center;
   }
+
+/*--Table 2--*/
 
   #tableB {
     width: 100%;
@@ -180,6 +179,8 @@ nav a:hover {
   #columnI {
     text-align: center;
   }
+
+  /*--Table 3--*/
 
   #tableC {
     width: 100%;
@@ -211,11 +212,12 @@ nav a:hover {
   footer {
     background-color: #acabab;
     padding: 5px 0px;
-    color: #fff;
+    color: #000;
     text-align: center;
       font-family: "PT Sans Narrow", sans-serif;
       font-weight: 400;
       font-style: normal;
       position: relative;
+      border-color: #acabab;
   }
   
