@@ -6,6 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Maria Rose Mulhall's: Portfolio</title>
   <link href="./index.css" rel="stylesheet" type="text/css"> 
+  <script defer src="./index.js"></script>
 </head> 
 
 <!--Add CSS Components-->
@@ -27,18 +28,22 @@
     </header>
   </section>
 
-    <div class="container"></div>
-    <main>
-      <figure>
-        <body>
-           <img class="figure" src="./MREM.JPG" alt="HeadShot of Maria Rose Mulhall">
-            <figcaption>Photo: Deane Bayas</figcaption>
-        </body>
-      </figure>
+    
+    <main style="align-items: center; display: flex ; flex-direction: column; justify-content: center;">
+      
+        <div style="text-align: center;">
+          <img class="figure" src="./MREM.JPG" alt="HeadShot of Maria Rose Mulhall"/>
+
+          <figcaption>Photo: Deane Bayas</figcaption>
+        </div>
+           
+        
+      
 
       <section class="wrapper-main">
+        <h2 id="greeting">Good Morning</h2>
         <h2>My name is Maria Rose Mulhall</h2>
-
+        
         <p class="Biography">I am currently a student at the <strong>Southern Alberta Institute of Technology.</strong>
            With a passion for computers, I decided to explore the introductions to software development independently. Still, I desired a more creative path, so I searched for other potentials within the industry, and that is when I discovered User Experience Design. This resulted in me enrolling in SAIT's Interactive Design Diploma, majoring in User Experience.</p>
 
@@ -57,6 +62,9 @@
         <li>User Control</li>
         <li>User Research</li>
       </ol>
+      <ol id="numbers">
+
+      </ol>
       </section>
 
      <!--Keep UX Interests Up-To-Date-->
@@ -64,6 +72,7 @@
   <body>
      <section class="wrapper-main"> 
       <h3>SKILLS and KNOWLEDGE</h3>
+      <button id="alert-button" onclick="alertButton()" onmouseover="alertBtnHover()" onmouseleave="revertBtn()">Click Me</button>
        
           <table id="tableA" style="width: 100%;">
            <tr>
@@ -145,11 +154,11 @@
 
     </main>
 
-  <section class="wrapper-main">
-    <footer>
-      <p>&copy; 2024 Maria Rose Mulhall. All Rights Reserved.</p>
-    </footer>
-  </section>
+    <section class="wrapper-main">
+      <footer>
+        <p id="footerCopyright">Maria Rose Mulhall. All Rights Reserved.</p>
+      </footer>
+    </section>
 </body>
 </html>
 
